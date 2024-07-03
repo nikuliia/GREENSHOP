@@ -18,19 +18,19 @@
     </div>
     <p class="text">Enter your email and password to register</p>
     <form name="register" action="" method="post">
-        <div>
-            <input type="text" name="text" placeholder="Username">
-        </div>
-        <div>
-            <input type="email" name="email" placeholder="Enter your email address">
-        </div>
-        <div>
-            <input type="password" name="password" placeholder="Password">
+        <label for="Username">
+            <input type="text" id="Username" name="input-name" placeholder="Username">
+        </label>
+        <label for="email">
+            <input type="email" id="email" name="input-email" placeholder="Enter your email address">
+        </label>
+        <label for="pass">
+            <input type="password" id="pass" name="input-password" placeholder="Password">
             <img src="images/Hide.svg" alt="">
-        </div>
-        <div>
-            <input type="password" name="password" placeholder="Confirm Password">
-        </div>
+        </label>
+        <label for="confirm">
+            <input type="password" id="confirm" name="input-confirm" placeholder="Confirm Password">
+        </label>
         <button type="submit">Register</button>
     </form>
     <p>Or register with</p>
