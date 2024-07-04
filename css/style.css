@@ -1,43 +1,86 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.modal{
+
+.modal {
     max-width: 500px;
     margin: auto;
     padding-top: 52px;
     padding-right: 100px;
     padding-left: 100px;
     padding-bottom: 40px;
-    border-bottom: solid 10px #46A358;;
+    border-bottom: solid 10px #46A358;
 }
-.modal .title{
+
+.modal .title {
     text-align: center;
     margin-bottom: 40px;
 }
-.modal .title a{
+
+.modal .title a {
     font-weight: 500;
     font-size: 20px;
     line-height: 80%;
     color: #3d3d3d;
     text-decoration: none;
 }
-.modal .title a:last-of-type{
-    color:  #46a358;
+
+.modal .title a:last-of-type {
+    color: #46a358;
 }
-.modal .title span{
+
+.modal .title span {
     font-weight: 250;
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
     margin: 0 11px
 }
-.container{
+p .text {
+    margin-bottom: 16px;
+    width: 300px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    color: #3d3d3d;
+}
+form {
+    margin-bottom: 16px;
+}
+input {
+    margin-bottom: 16px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+button {
+    max-width: 300px;
+    background-color: #46A358;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 300px;
+    height: 45px;
+}
+
+form a {
+border: 1px solid #eaeaea;
+border-radius: 5px;
+width: 300px;
+height: 40px;
+}
+
+.container {
     max-width: 1200px;
     margin: auto;
 }
-header{
+
+header {
     padding-top: 31px;
 }
 
