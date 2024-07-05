@@ -61,6 +61,11 @@ input {
     border-radius: 5px;
     width: 300px;
     height: 40px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #a5a5a5;
 }
 
 .btn {
@@ -78,8 +83,15 @@ input {
 }
 
 .btn-gray {
-    background-color: #545755;
-    color: black;
+    border-color: lightgrey;
+    border-style: solid;
+    margin-bottom: 16px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 123%;
+    text-align: center;
+    color: #727272;
 }
 
 form a {
