@@ -38,7 +38,7 @@
     color: #3d3d3d;
     margin: 0 11px
 }
-p .text {
+.modal .subtitle {
     margin-bottom: 16px;
     width: 300px;
     height: 16px;
@@ -51,8 +51,9 @@ form {
     margin-bottom: 16px;
 }
 input {
-    margin-bottom: 16px;
+    padding: 12px 0 12px 14px;
     border: 1px solid #eaeaea;
+    margin-bottom: 16px;
     border-radius: 5px;
     width: 300px;
     height: 40px;
