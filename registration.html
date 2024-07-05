@@ -11,24 +11,26 @@
 </head>
 <body>
 <div class="modal">
-    <a href="#"><img src="images/X.svg" alt=""></a>
-    <div class="title">
-        <a href="#" title="Login">Login</a>
-        <span> | </span>
-        <a href="#" title="Register">Register</a>
+    <div class="modal-body">
+        <a href="#"><img src="images/X.svg" alt=""></a>
+        <div class="title">
+            <a href="#" title="Login">Login</a>
+            <span> | </span>
+            <a href="#" title="Register">Register</a>
+        </div>
+        <p class="subtitle">Enter your email and password to register</p>
+        <form name="register" action="" method="post">
+            <input type="text" name="input-name" placeholder="Username">
+            <input type="email" name="input-email" placeholder="Enter your email address">
+            <input type="password" name="input-password" placeholder="Password">
+            <img src="images/Hide.svg" alt="">
+            <input type="password" id="confirm" name="input-confirm" placeholder="Confirm Password">
+            <button type="submit" class="btn btn-green">Register</button>
+        </form>
+        <p>Or register with</p>
+        <a class="btn btn-gray" href="https://www.google.com"><img src="images/Group.svg" alt="">Continue with Google</a>
+        <a class="btn btn-gray" href="https://www.facebook.com"><img src="images/facebook%201.svg" alt="">Continue with Facebook</a>
     </div>
-    <p class="subtitle">Enter your email and password to register</p>
-    <form name="register" action="" method="post">
-        <input type="text" name="input-name" placeholder="Username">
-        <input type="email" name="input-email" placeholder="Enter your email address">
-        <input type="password" name="input-password" placeholder="Password">
-        <img src="images/Hide.svg" alt="">
-        <input type="password" id="confirm" name="input-confirm" placeholder="Confirm Password">
-        <button type="submit">Register</button>
-    </form>
-    <p>Or register with</p>
-    <a href="https://www.google.com"><img src="images/Group.svg" alt="">Continue with Google Search Engine</a>
-    <a href="https://www.facebook.com"><img src="images/facebook%201.svg" alt="">Continue with Facebook</a>
 </div>
 </body>
 </html>

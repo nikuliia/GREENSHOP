@@ -7,11 +7,12 @@
 .modal {
     max-width: 500px;
     margin: auto;
-    padding-top: 52px;
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-bottom: 40px;
     border-bottom: solid 10px #46A358;
+}
+
+.modal-body {
+    width: 300px;
+    margin: 52px auto 40px;
 }
 
 .modal .title {
@@ -38,6 +39,7 @@
     color: #3d3d3d;
     margin: 0 11px
 }
+
 .modal .subtitle {
     margin-bottom: 16px;
     width: 300px;
@@ -47,9 +49,11 @@
     line-height: 123%;
     color: #3d3d3d;
 }
+
 form {
     margin-bottom: 16px;
 }
+
 input {
     padding: 12px 0 12px 14px;
     border: 1px solid #eaeaea;
@@ -59,21 +63,30 @@ input {
     height: 40px;
 }
 
-button {
-    max-width: 300px;
-    background-color: #46A358;
+.btn {
     font-weight: bold;
-    color: #ffffff;
     border-radius: 5px;
-    width: 300px;
-    height: 45px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+}
+
+.btn-green {
+    background-color: #46A358;
+    color: #ffffff;
+}
+
+.btn-gray {
+    background-color: #545755;
+    color: black;
 }
 
 form a {
-border: 1px solid #eaeaea;
-border-radius: 5px;
-width: 300px;
-height: 40px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
 }
 
 .container {
