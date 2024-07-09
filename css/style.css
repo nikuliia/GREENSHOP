@@ -125,5 +125,22 @@ form a {
 header {
     padding-top: 31px;
 }
+.login_btn {
+    border-radius: 6px;
+    background: #46A358;
+    padding: 7px 17px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul {
+    display: flex;
+    align-items: center;
+}
 
 
