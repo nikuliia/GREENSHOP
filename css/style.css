@@ -144,10 +144,11 @@ header ul {
     display: flex;
     align-items: center;
     padding-top: 8px;
+    list-style: none;
 }
 
 nav ul li {
-    margin-right: 25px;
+    margin-right: 50px;
     text-decoration: none;
 }
 
