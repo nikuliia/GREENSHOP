@@ -145,17 +145,29 @@ header ul {
     display: flex;
     align-items: center;
     padding-top: 8px;
+    padding-bottom: 25px;
     list-style: none;
 }
 
-nav ul li {
-    margin-right: 50px;
-    text-decoration: none;
+.list-top li {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
 
+.list-top li {
+    display: inline-block;
+    min-width: 70px;
+    text-align: center;
+}
+
+.list-top a:hover {
+    font-weight: bold;
 }
 
 nav ul li a {
     text-decoration: none;
+    padding-top: 8px;
 }
 
 .container-two {
@@ -188,6 +200,7 @@ nav ul li a {
 }
 
 .text-content span {
+    display: inline-block;
     color: #46a358;
 }
 
@@ -199,12 +212,17 @@ nav ul li a {
 }
 
 .btn-shop-now {
-    padding: 10px 0;
+    padding: 10px 26px;
     font-weight: 700;
     font-size: 16px;
     line-height: 125%;
     text-transform: uppercase;
     color: #fff;
+    border: 1px solid #46A358;
+    border-radius: 6px;
+    background-color: #46A358;
+    text-decoration: none;
+    margin-top: 44px;
 }
 
 .main-img {
