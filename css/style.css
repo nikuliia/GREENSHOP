@@ -137,6 +137,11 @@ header {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    width: 100px;
+    height: 35px;
 }
 
 header ul {
@@ -204,7 +209,6 @@ nav ul li a {
 }
 
 .text-content span {
-    display: inline-block;
     color: #46a358;
 }
 
@@ -231,7 +235,5 @@ nav ul li a {
 
 .main-img {
     width: 507px;
-    height: 450px;
-    display: inline-block;
 }
 
