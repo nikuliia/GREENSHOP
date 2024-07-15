@@ -164,10 +164,10 @@ header ul {
 }
 
 nav ul li a {
+    font: 16px 'cera_round_pro_demoregular';
     text-decoration: none;
     padding-top: 8px;
     font-weight: 400;
-    font-size: 16px;
     color: #3d3d3d;
 }
 
@@ -232,3 +232,47 @@ nav ul li a {
     width: 507px;
 }
 
+.container-three {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-three h3 li {
+    font: 15px 'cera_round_pro_demoregular';
+}
+
+.menu {
+    max-width: 370px;
+ }
+.menu-list {
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+}
+
+.plants-list {
+    max-width: 840px;
+}
+.menu-list ul li {
+    padding-left: 153px;
+    padding-right: 189px;
+}
+
+.sale-plant {
+    padding-left: 106px;
+}
+.plant-type-menu li {
+    font-weight: 400;
+    color: #3d3d3d;
+    paddin
+}
+.plant-type-menu:hover {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 267%;
+    color: #46a358;
+}
