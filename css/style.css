@@ -236,6 +236,7 @@ nav ul li a {
     max-width: 1200px;
     margin: auto;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -245,8 +246,9 @@ nav ul li a {
 
 .menu {
     max-width: 370px;
- }
-.menu-list {
+}
+
+.categories {
     width: 100%;
     font-weight: 700;
     font-size: 18px;
@@ -257,19 +259,25 @@ nav ul li a {
 .plants-list {
     max-width: 840px;
 }
-.menu-list ul li {
-    padding-left: 153px;
-    padding-right: 189px;
+
+.categories ul li {
+    padding: 27px 189px 364px 18px;
 }
 
 .sale-plant {
     padding-left: 106px;
 }
-.plant-type-menu li {
+
+.plant-type-menu li a {
     font-weight: 400;
     color: #3d3d3d;
-    paddin
+    text-decoration: none;
 }
+
+.plant-type-menu li {
+    list-style: none;
+}
+
 .plant-type-menu:hover {
     font-weight: 700;
     font-size: 15px;
