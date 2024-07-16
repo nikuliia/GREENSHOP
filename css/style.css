@@ -10,6 +10,31 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'cera_round_pro_demobold';
+    src: url('../fonts/ceraroundprodemo-bold-webfont.eot');
+    src: url('../fonts/ceraroundprodemo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ceraroundprodemo-bold-webfont.woff2') format('woff2'),
+    url('../fonts/ceraroundprodemo-bold-webfont.woff') format('woff'),
+    url('../fonts/ceraroundprodemo-bold-webfont.ttf') format('truetype'),
+    url('../fonts/ceraroundprodemo-bold-webfont.svg#cera_round_pro_demobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hanging_lettersregular';
+    src: url('../fonts/hanged_letters-webfont.eot');
+    src: url('../fonts/hanged_letters-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/hanged_letters-webfont.woff2') format('woff2'),
+    url('../fonts/hanged_letters-webfont.woff') format('woff'),
+    url('../fonts/hanged_letters-webfont.ttf') format('truetype'),
+    url('../fonts/hanged_letters-webfont.svg#hanging_lettersregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -140,15 +165,29 @@ header {
     font-weight: 500;
     font-size: 16px;
     color: #fff;
-    width: 100px;
     height: 35px;
+    text-decoration: none;
+}
+
+.login_btn img {
+    margin-right: 4px;
 }
 
 header ul {
     display: flex;
     align-items: center;
+    gap: 50px;
     padding-top: 8px;
     list-style: none;
+}
+
+header ul li ul {
+    display: block;
+}
+
+header ul li ul {
+    text-align: left;
+    min-width: 188px;
 }
 
 .list-top li {
@@ -158,9 +197,7 @@ header ul {
 }
 
 .list-top a:hover {
-    font-weight: 700;
-    font-size: 16px;
-    color: #3d3d3d;
+
 }
 
 nav ul li a {
@@ -232,11 +269,14 @@ nav ul li a {
     width: 507px;
 }
 
+.section-two {
+    padding-top: 27px;
+}
+
 .container-three {
     max-width: 1200px;
     margin: auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -244,28 +284,31 @@ nav ul li a {
     font: 15px 'cera_round_pro_demoregular';
 }
 
-.menu {
-    max-width: 370px;
-}
-
 .categories {
-    width: 100%;
+    font: 18px 'cera_round_pro_demobold';
+    margin-bottom: 7px;
+    margin-left: 18px;
     font-weight: 700;
-    font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
-}
-
-.plants-list {
-    max-width: 840px;
 }
 
 .categories ul li {
     padding: 27px 189px 364px 18px;
 }
 
+.left-side {
+    max-width: 310px;
+    background-color: #fbfbfb;
+}
+
+.plant-type-menu {
+    padding-left: 18px;
+    padding-bottom: 364px;
+}
+
 .sale-plant {
-    padding-left: 106px;
+    margin-left: -30px;
 }
 
 .plant-type-menu li a {
@@ -276,11 +319,18 @@ nav ul li a {
 
 .plant-type-menu li {
     list-style: none;
-}
-
-.plant-type-menu:hover {
+    font-weight: 400;
+    color: #3d3d3d;
     font-weight: 700;
     font-size: 15px;
     line-height: 267%;
+}
+
+.plant-type-menu li a:hover {
     color: #46a358;
+    font-weight: 400;
+}
+
+.plants-list {
+    max-width: 840px;
 }
