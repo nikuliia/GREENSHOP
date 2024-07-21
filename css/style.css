@@ -286,6 +286,7 @@ nav ul li a {
 
 .categories {
     font: 18px 'cera_round_pro_demobold';
+    margin-top: 27px;
     margin-bottom: 7px;
     margin-left: 18px;
     font-weight: 700;
@@ -331,6 +332,89 @@ nav ul li a {
     font-weight: 400;
 }
 
-.plants-list {
+.plant-articles {
+    display: flex;
     max-width: 840px;
+    justify-content: space-between;
 }
+
+.top-part {
+    margin-bottom: 31px;
+}
+
+.top-part li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.top-part li a {
+    text-decoration: none;
+}
+
+.middle-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 33px
+}
+
+.middle-part article img {
+    max-width: 250px;
+}
+
+.middle-part h4 {
+    font: 16px 'cera_round_pro_demoregular';
+    font-weight: 400;
+    line-height: 100%;
+    color: #3d3d3d;
+    margin-top: 44px;
+}
+
+.middle-part p {
+    font: 16px 'cera_round_pro_demoregular';
+    font-weight: 700;
+    line-height: 89%;
+    color: #46a358;
+    margin-top: 7px;
+}
+
+.page-numbers {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page-numbers a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    font: 18px 'cera_round_pro_demoregular';
+    font-weight: 300;
+    line-height: 89%;
+    color: #3d3d3d;
+}
+
+.page-numbers ul li {
+    list-style: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    gap: 10px;
+}
+
+.page-numbers li:hover {
+    background: #46a358;
+}
+
+.page-numbers li a:hover {
+    background: #46a358;
+    font-weight: 700;
+    font: 18px 'cera_round_pro_demobold';
+    line-height: 89%;
+    color: #fff;
+}
+
