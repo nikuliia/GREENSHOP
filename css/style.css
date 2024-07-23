@@ -367,21 +367,22 @@ nav ul li a {
 .middle-part {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 33px
 }
 
-.middle-part article img {
+.middle-part .product-cards {
     max-width: 250px;
     max-height: 250px;
 }
 
-.middle-part h4 {
+.middle-part .product_name {
     font: 16px 'cera_round_pro_demoregular';
     font-weight: 400;
     line-height: 100%;
     color: #3d3d3d;
     margin-top: 44px;
+    text-decoration: none;
 }
 
 .middle-part p {
