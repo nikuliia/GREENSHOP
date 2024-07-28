@@ -146,13 +146,14 @@ form a {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding-bottom: 25px;
-    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
 }
 
 header {
+    max-width: 1200px;
+    margin: auto;
     padding-top: 30px;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
 }
 
 .login_btn {
@@ -322,14 +323,13 @@ nav ul li a {
     list-style: none;
     font-weight: 400;
     color: #3d3d3d;
-    font-weight: 700;
     font-size: 15px;
     line-height: 267%;
 }
 
 .plant-type-menu li a:hover {
     color: #46a358;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .right-side {
@@ -342,61 +342,119 @@ nav ul li a {
     margin-bottom: 31px;
 }
 
+.right-side .top-part ul li {
+    max-height: 23px;
+    max-width: 88px;
+}
+
 .top-part li {
+    border-bottom: solid 1px transparent;
     list-style: none;
 }
 
-.top-part .left-ul li {
+.top-part li:hover {
+    border-bottom: solid 2px #46a358;
+    font-weight: 700;
+}
+
+.top-part li a:hover {
+    font: 15px 'cera_round_pro_demobold';
+    font-weight: 700;
+    line-height: 107%;
+    color: #46a358;
+}
+
+.top-part ul {
     display: flex;
     justify-content: space-between;
 }
 
-.top-part .right-ul li {
-    display: flex;
-    justify-content: space-between;
+.top-part ul li {
+    margin-right: 37px;
 }
 
 .top-part li a {
+    font: 15px 'cera_round_pro_demoregular';
     text-decoration: none;
     font-weight: 400;
-    font-size: 15px;
     line-height: 107%;
     color: #3d3d3d;
 }
 
+.top-part p {
+    font: 15px 'cera_round_pro_demoregular';
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 100%;
+    color: #3d3d3d;
+}
+
+.top-part p {
+    color: #3d3d3d;
+}
+
+.right_p {
+    display: flex;
+}
+
+.right_p .p2 {
+    margin-left: 8px;
+}
+
+.right_p .p_img {
+    margin-left: 5px;
+}
+
+
 .middle-part {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 33px
+    justify-content: space-between;
 }
 
-.middle-part .product-cards {
+.product-cards img {
     max-width: 250px;
     max-height: 250px;
+    margin-bottom: 20px;
 }
 
-.middle-part .product_name {
+.product-cards {
+    max-width: 258px;
+    border-top: solid 1px transparent;
+}
+
+.product-cards:hover {
+    max-width: 250px;
+    max-height: 250px;
+    border-top: solid 1px #46a358;
+}
+
+.middle-part article h4 {
     font: 16px 'cera_round_pro_demoregular';
     font-weight: 400;
     line-height: 100%;
     color: #3d3d3d;
     margin-top: 44px;
     text-decoration: none;
+    margin-bottom: 6px;
 }
 
 .middle-part p {
-    font: 16px 'cera_round_pro_demoregular';
+    font: 18px 'cera_round_pro_demobold';
     font-weight: 700;
     line-height: 89%;
     color: #46a358;
     margin-top: 7px;
 }
 
+.middle-part article {
+    margin-bottom: 70px;
+}
+
 .page-numbers ul {
     display: flex;
     justify-content: flex-end;
-    margin-top: 90px;
+    margin-top: 20px;
     gap: 10px;
 }
 
@@ -424,6 +482,7 @@ nav ul li a {
 
 .page-numbers li:hover {
     background: #46a358;
+    font-weight: 700;
 }
 
 .page-numbers li a:hover {
@@ -434,3 +493,93 @@ nav ul li a {
     color: #fff;
 }
 
+.round-arrow:hover svg path {
+    font-weight: 700;
+    stroke: #fff;
+}
+
+.container-four {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summer_collection {
+    margin-top: 69px;
+    margin-bottom: 138px;
+}
+
+.summer_collection .container-four {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summer_collection .container-four article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    max-width: 586px;
+}
+
+.summer_collection article h3 {
+    font: 18px 'cera_round_pro_demobold';
+    font-weight: 900;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+    padding-bottom: 9px;
+}
+
+.summer_collection article p {
+    font: 14px 'cera_round_pro_demoregular';
+    font-weight: 400;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+    padding-bottom: 25px;
+}
+
+.summer_collection article a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font: 14px 'cera_round_pro_demoregular';
+    font-weight: 500;
+    line-height: 143%;
+    color: #fff;
+    border-radius: 6px;
+    width: 140px;
+    height: 40px;
+    background: #46a358;
+}
+
+.container_five {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.blog {
+    text-align: center;
+}
+
+.blog h3 {
+    font: 30px 'cera_round_pro_demobold';
+    font-weight: 700;
+    line-height: 53%;
+    text-align: center;
+    color: #3d3d3d;
+    margin-bottom: 15px;
+}
+
+.blog p {
+    font: 14px 'cera_round_pro_demoregular';
+    font-weight: 400;
+    line-height: 171%;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 35px;
+}
