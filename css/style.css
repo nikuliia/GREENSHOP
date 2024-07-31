@@ -191,31 +191,73 @@ header ul {
 }
 
 header ul li ul {
-    display: block;
+    position: absolute;
+    bottom: -186px;
+    left: -56px;
+    background: #edf6ee;
+    display: none;
 }
 
-header ul li ul {
+header .dropdown li {
+    display: block;
     text-align: left;
     min-width: 188px;
 }
 
-.list-top li {
-    min-width: 70px;
+header li {
+    min-width: 54px;
     text-align: center;
+    position: relative;
+}
+
+header li.dropdown-menu:hover ul {
+    display: block;
+}
+
+.dropdown .dropitem1 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+}
+
+.dropdown .dropitem2 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+}
+
+.dropdown .dropitem3 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+}
+
+.dropdown .dropitem4 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+}
+
+.dropdown .dropitem4 img {
+    position: absolute;
+    top: 12px;
+    right: 17px;
+}
+
+.list-top li {
     list-style: none;
 }
 
 .list-top a {
     font: 16px 'cera_round_pro_demoregular';
     text-decoration: none;
-    padding-top: 8px;
     font-weight: 400;
     color: #3d3d3d;
 }
 
 .list-top .list-top-item:hover {
     font-weight: 700;
-    padding-bottom: 25px;
+    padding-bottom: 36px;
     border-bottom: 3px solid #46a358;
 }
 
@@ -358,17 +400,17 @@ header ul li ul {
     margin-bottom: 31px;
 }
 
-.list-two-a:hover {
-    border-bottom: solid 2px #46a358;
-    font-weight: 700;
-    color: #46a358;
-}
-
 .list-two-a {
     font: 15px 'cera_round_pro_demobold';
     font-weight: 400;
     line-height: 107%;
     color: #3d3d3d;
+}
+
+.list-two-a:hover {
+    border-bottom: solid 2px #46a358;
+    font-weight: 700;
+    color: #46a358;
 }
 
 .top-part ul {
@@ -405,13 +447,12 @@ header ul li ul {
 }
 
 .right_p .p2 {
-    margin-left: 8px;
+    padding-left: 8px;
 }
 
 .right_p .p_img {
     margin-left: 5px;
 }
-
 
 .middle-part {
     display: flex;
@@ -442,6 +483,8 @@ header ul li ul {
     justify-content: space-evenly;
     position: absolute;
     width: 125px;
+    left: 63px;
+    bottom: 79px;
 }
 
 .product-cards .sale {
