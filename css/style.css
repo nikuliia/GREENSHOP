@@ -192,7 +192,7 @@ header ul {
 
 header ul li ul {
     position: absolute;
-    bottom: -186px;
+    bottom: -165px;
     left: -56px;
     background: #edf6ee;
     display: none;
@@ -210,38 +210,15 @@ header li {
     position: relative;
 }
 
-header li.dropdown-menu:hover ul {
+.dropdown-menu:hover > .dropdown {
     display: block;
 }
 
-.dropdown .dropitem1 {
+
+.dropdown .dropitem {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 14px;
-}
-
-.dropdown .dropitem2 {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 14px;
-}
-
-.dropdown .dropitem3 {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 14px;
-}
-
-.dropdown .dropitem4 {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 14px;
-}
-
-.dropdown .dropitem4 img {
-    position: absolute;
-    top: 12px;
-    right: 17px;
 }
 
 .list-top li {
@@ -250,14 +227,14 @@ header li.dropdown-menu:hover ul {
 
 .list-top a {
     font: 16px 'cera_round_pro_demoregular';
-    text-decoration: none;
-    font-weight: 400;
-    color: #3d3d3d;
+}
+
+.list-top .list-top-item {
+    padding-bottom: 36px;
 }
 
 .list-top .list-top-item:hover {
     font-weight: 700;
-    padding-bottom: 36px;
     border-bottom: 3px solid #46a358;
 }
 
@@ -504,7 +481,7 @@ header li.dropdown-menu:hover ul {
 }
 
 .product-item .icons .icon:hover {
-    color: #46A358; /* todo must be stroke/*/
+    color: #46A358;
 }
 
 .product-item .sale {
