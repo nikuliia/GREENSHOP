@@ -460,6 +460,10 @@ header li.dropdown-menu:hover ul {
     justify-content: space-between;
 }
 
+.middle-part .product-item {
+    margin-bottom: 70px;
+}
+
 .product-item {
     max-width: 258px;
     border-top: solid 1px transparent;
@@ -487,7 +491,7 @@ header li.dropdown-menu:hover ul {
     width: 100%;
     margin: 0 auto;
     padding: 7px;
-    bottom: 16px;
+    bottom: -10px;
 }
 
 .product-item .product-item-img-wrap:hover .icons {
@@ -532,10 +536,6 @@ header li.dropdown-menu:hover ul {
     line-height: 89%;
     color: #46a358;
     margin-top: 7px;
-}
-
-.middle-part article {
-    margin-bottom: 70px;
 }
 
 .page-numbers ul {
