@@ -460,34 +460,50 @@ header li.dropdown-menu:hover ul {
     justify-content: space-between;
 }
 
-.product-cards img {
-    max-width: 250px;
-    max-height: 250px;
-    margin-bottom: 20px;
-}
-
-.product-cards {
+.product-item {
     max-width: 258px;
     border-top: solid 1px transparent;
     position: relative;
 }
 
-.product-cards:hover {
-    max-width: 250px;
-    max-height: 250px;
+.product-item:hover {
     border-top: solid 1px #46a358;
 }
 
-.product-cards .icons {
-    display: flex;
-    justify-content: space-evenly;
-    position: absolute;
-    width: 125px;
-    left: 63px;
-    bottom: 79px;
+.product-item .product-item-img {
+    max-width: 250px;
+    max-height: 250px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
-.product-cards .sale {
+.product-item-img-wrap {
+    position: relative;
+}
+
+.product-item .icons {
+    display: none;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    padding: 7px;
+    bottom: 16px;
+}
+
+.product-item .product-item-img-wrap:hover .icons {
+    display: flex;
+    justify-content: center;
+}
+
+.product-item .icons .icon {
+    padding: 13px;
+}
+
+.product-item .icons .icon:hover {
+    color: #46A358; /* todo must be stroke/*/
+}
+
+.product-item .sale {
     background-color: #46A358;
     font-weight: 500;
     font-size: 16px;
@@ -496,8 +512,9 @@ header li.dropdown-menu:hover ul {
     padding: 7px 8px;
     position: absolute;
     left: 0;
-    top: 0;
+    top: 14px;
 }
+
 
 .middle-part article h4 {
     font: 16px 'cera_round_pro_demoregular';
