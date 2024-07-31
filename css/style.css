@@ -104,6 +104,14 @@ input {
     color: #a5a5a5;
 }
 
+form .password {
+    position: relative;
+}
+
+form input .password img {
+    position: absolute;
+}
+
 .btn {
     font-weight: bold;
     border-radius: 5px;
@@ -141,19 +149,19 @@ form a {
     height: 40px;
 }
 
+header {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 25px;
-}
-
-header {
-    max-width: 1200px;
-    margin: auto;
-    padding-top: 30px;
-    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
 }
 
 .login_btn {
@@ -197,11 +205,7 @@ header ul li ul {
     list-style: none;
 }
 
-.list-top a:hover {
-
-}
-
-nav ul li a {
+.list-top a {
     font: 16px 'cera_round_pro_demoregular';
     text-decoration: none;
     padding-top: 8px;
@@ -209,12 +213,17 @@ nav ul li a {
     color: #3d3d3d;
 }
 
+.list-top .list-top-item:hover {
+    font-weight: 700;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #46a358;
+}
+
 .container-two {
     margin: auto;
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
 }
 
@@ -266,8 +275,10 @@ nav ul li a {
     text-decoration: none;
 }
 
-.main-img {
-    width: 507px;
+.small_plant {
+    position: relative;
+    top: -154px;
+    left: 54px;
 }
 
 .section-two {
@@ -336,32 +347,28 @@ nav ul li a {
     max-width: 840px;
 }
 
+.right-side .top-part ul li {
+    max-height: 23px;
+    max-width: 90px;
+}
+
 .top-part {
     display: flex;
     justify-content: space-between;
     margin-bottom: 31px;
 }
 
-.right-side .top-part ul li {
-    max-height: 23px;
-    max-width: 88px;
-}
-
-.top-part li {
-    border-bottom: solid 1px transparent;
-    list-style: none;
-}
-
-.top-part li:hover {
+.list-two-a:hover {
     border-bottom: solid 2px #46a358;
     font-weight: 700;
+    color: #46a358;
 }
 
-.top-part li a:hover {
+.list-two-a {
     font: 15px 'cera_round_pro_demobold';
-    font-weight: 700;
+    font-weight: 400;
     line-height: 107%;
-    color: #46a358;
+    color: #3d3d3d;
 }
 
 .top-part ul {
@@ -421,12 +428,32 @@ nav ul li a {
 .product-cards {
     max-width: 258px;
     border-top: solid 1px transparent;
+    position: relative;
 }
 
 .product-cards:hover {
     max-width: 250px;
     max-height: 250px;
     border-top: solid 1px #46a358;
+}
+
+.product-cards .icons {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 125px;
+}
+
+.product-cards .sale {
+    background-color: #46A358;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    padding: 7px 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .middle-part article h4 {
@@ -583,3 +610,4 @@ nav ul li a {
     color: #727272;
     margin-bottom: 35px;
 }
+

@@ -18,31 +18,22 @@
         <nav>
             <ul class="list-top">
                 <li>
-                    <a href="#">Home</a>
+                    <a class="list-top-item" href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">Shop</a>
+                    <a class="list-top-item" href="#">Shop</a>
                 </li>
-                <li class="dropdown">
-                    <a href="#">Plant Care</a>
-                    <ul>
-                        <li>
-                            <a href="#">Drainage</a>
-                        </li>
-                        <li>
-                            <a href="#">Fungicides</a>
-                        </li>
-                        <li>
-                            <a href="#">Fertiliser</a>
-                        </li>
-                        <li>
-                            <a href="#">Priming</a>
-                        </li>
-
+                <li>
+                    <a class="list-top-item" href="#">Plant Care</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Drainage</a></li>
+                        <li><a href="#">Fungicides</a></li>
+                        <li><a href="#">Fertiliser</a></li>
+                        <li><a href="#">Priming</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Blogs</a>
+                    <a class="list-top-item" href="#">Blogs</a>
                 </li>
             </ul>
         </nav>
@@ -61,9 +52,15 @@
                     our plants to create a unique Urban Jungle. Order your favorite plants!</p>
                 <a class="btn-shop-now" href="#">SHOP NOW</a>
             </div>
-            <div class="main-img">
+            <section>
+                <div class="container_plants">
+                    <div class="big_plant"><img class="img_1" src="images/01_1.png" alt="img"></div>
+                    <div class="small_plant"><img class="img_2" src="images/01_2.png" alt="img"></div>
+                </div>
+            </section>
+          <!--  <div class="main-img">
                 <img src="images/main_pot.png" alt="main_pot">
-            </div>
+            </div>-->
         </div>
     </section>
     <section class="section-two">
@@ -103,15 +100,15 @@
             </div>
             <div class="right-side">
                 <div class="top-part">
-                    <ul>
+                    <ul class="list-two">
                         <li>
-                            <a href="#">All Plants</a>
+                            <a class="list-two-a" href="#">All Plants</a>
                         </li>
                         <li>
-                            <a href="#">New Arrivals</a>
+                            <a class="list-two-a" href="#">New Arrivals</a>
                         </li>
                         <li>
-                            <a href="#">Sale</a>
+                            <a class="list-two-a" href="#">Sale</a>
                         </li>
                     </ul>
                     <div class="right_p">
@@ -128,11 +125,23 @@
                     </article>
                     <article class="product-cards">
                         <img src="images/2angel.png" alt="img2">
+                        <ul class="icons">
+                            <li>
+                                <a href="#"><img src="images/Vector.png" alt="img"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/heart1.png" alt="img"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/Frame.png" alt="img"></a>
+                            </li>
+                        </ul>
                         <h4>Angel Wing Begonia</h4>
                         <p>$169.00</p>
                     </article>
                     <article class="product-cards">
                         <img src="images/3african.png" alt="img3">
+                        <span class="sale">13% OFF</span>
                         <h4>African Violet</h4>
                         <p>$199.00</p>
                     </article>
